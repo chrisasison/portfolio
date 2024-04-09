@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS Styles -->
-    <link rel="stylesheet" href="stylish.css" />
+    <link rel="stylesheet" href="assets/css/stylish.css" />
 
     <!-- Favicons -->
     <link
@@ -32,7 +32,7 @@
   <body>
     <!-- Navbar -->
     <nav>
-        <h1>CHRIS SISON</h1>
+        <h1>C H R I S SISON</h1>
         <ul class="navigation">
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -46,12 +46,12 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
         <img
-          src="assets/images/wfh_1.svg"
+          src="assets/images/bridge pic.JPG" 
           alt="chris-sison"
           loading="lazy"
           class="hero-img"
         />
-        <div class="bio animate__animated animate__shakeX">
+        <div class="bio">
           <h2 class="bio-title">ABOUT ME</h2>
           <p class="bio-text">
             Recent graduate from Vancouver Community College's CAD/BIM Diploma
@@ -60,43 +60,29 @@
         </div>
   </section>
     <!-- More about -->
-    <section class="more-about">
-        <h2>More About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-          autem deleniti cupiditate molestias quis unde quae totam porro dicta
-          iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-          nostrum dolor minus, libero delectus praesentium perferendis
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-          consequuntur labore? Ea totam voluptas amet!
-        </p>
-      </section>
+    
     <!-- Skills section -->
     <section class="skills" id="skills">
-        <h2 class="skill-header">MY TOP SKILLS</h2>
+        <h2 class="skill-header">MY TOP SKILLS
+        </h2>
   
         <div class="skills-wrapper">
           <div class="first-set animate__animated animate__pulse">
             <img
-              src="assets/icons/icons8-html-5.svg"
-              alt=""
+              src="assets/icons/autocad.png"
+              alt="autocad"
               loading="lazy"
-              class="icon icon-card"
+              class="icon icon-card2"
             />
             <img
-              src="assets/icons/icons8-css3.svg"
+              src="assets/icons/Tekla.png"
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              class="icon icon-card3"
+              
             />
             <img
-              src="assets/icons/icons8-javascript.svg"
+              src="assets/icons/Revit.png"
               alt=""
               loading="lazy"
               class="icon icon-card"
@@ -105,23 +91,12 @@
   
           <div class="second-set animate__animated animate__pulse">
             <img
-              src="assets/icons/icons8-bootstrap.svg"
+              src="assets/icons/Bluebeam.png"
               alt=""
               loading="lazy"
               class="icon icon-card"
             />
-            <img
-              src="assets/icons/icons8-react-native.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-git.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
+            
           </div>
         </div>
       </section>
@@ -138,7 +113,7 @@
           />
           <h3 class="project-title">AUTOCAD</h3>
           
-          <p href="assets/pages/autocad-drawings.pdf" target="_blank" class="project-link">CHECK IT OUT</p>
+          <a href="assets/pages/AUTOCAD.pdf" target="_blank" class="project-link">CHECK IT OUT</a>
         </div>
         <div class="project-container project-card">
           <img
@@ -148,33 +123,92 @@
             class="project-pic"
           />
           <h3 class="project-title">TEKLA</h3>
-          <p href="assets/pages/TEKLA.pdf" target="_blank" class="project-link">CHECK IT OUT</p>
+          <a href="assets/pages/TEKLA.pdf" target="_blank" class="project-link">CHECK IT OUT</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/ibp-cover.png"
+            src="assets/images/Image2_000.png"
             alt="greeny-earth"
             loading="lazy"
             class="project-pic"
           />
           <h3 class="project-title">REVIT</h3>
           
-          <p href="#" target="_blank" class="project-link">CHECK IT OUT</p>
+          <a href="assets/pages/REVIT.pdf" target="_blank" class="project-link">CHECK IT OUT</a>
         </div>
       </div>
       
       </div>
     </section>
     <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Social accounts - Fixed to the right -->
 
     <!-- Scroll to top -->
 
     <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Kolade Chris (Ksound)</a
+        >
+      </p>
+</footer>
 
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="assets/script/java-port.js"></script>
 
     <!-- Ion icons scripts -->
     <script
