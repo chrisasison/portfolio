@@ -401,12 +401,13 @@
   
   @media screen and (max-width: 420px) {
     .hero img {
-      height: 23.5rem;
+      height: 20.5rem;
       width: 23rem;
     }
   
     .bio {
       width: 18.3rem;
+      text-align:justify;
     }
   
     .project-container {
