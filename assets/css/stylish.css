@@ -378,14 +378,14 @@
       }
   
     .bio {
-      margin-top: 10rem;
+      margin-top: 2rem;
       width: 20.5rem;
       text-align: justify;
     }
   
     .icon {
       width: 5.875rem;
-      height: 5.25rem;
+      height: 6.25rem;
     }
   
     .projects-container {
@@ -408,12 +408,12 @@
     .bio {
       width: 18.3rem;
       text-align:justify;
-      margin-top: 6rem;
+      margin-top: 2rem;
     }
 
     .icon {
       width: 5.875rem ;
-      height: 5.25rem;
+      height: 6.25rem;
     }
   
     .project-container {
