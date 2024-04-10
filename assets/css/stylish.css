@@ -6,7 +6,7 @@
     --bolder-font: 900;
     --bg-color: #fcfcfc;
     --primary-color: black;
-    --secondary-color: navy;
+    --secondary-color: rgb(128, 0, 90);
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
@@ -381,6 +381,7 @@
       margin-top: -10rem;
       width: 20.5rem;
       text-align: justify;
+  
     }
   
     .icon {
