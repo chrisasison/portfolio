@@ -386,7 +386,7 @@
     .icon {
       width: 5.875rem;
       height: 6.25rem;
-      padding: 1%;
+      margin: 2rem;
     }
   
     .projects-container {
@@ -415,7 +415,7 @@
     .icon {
       width: 5.875rem ;
       height: 6.25rem;
-      padding: 1%;
+      margin: 2rem;
     }
   
     .project-container {
