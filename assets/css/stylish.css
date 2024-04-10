@@ -409,13 +409,14 @@
     .bio {
       width: 18.3rem;
       text-align:justify;
-      margin-top: -7rem;
+      margin-top: -10rem;
     }
 
     .icon {
       width: 5.875rem ;
       height: 6.25rem;
-      
+      margin: 1rem;
+      margin-top: 1rem;
     }
   
     .project-container {
