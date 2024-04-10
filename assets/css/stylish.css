@@ -380,7 +380,7 @@
       }
   
     .bio {
-      margin-top: -10rem;
+      margin-top: 0rem;
       width: 20.5rem;
       text-align: justify;
   
@@ -413,7 +413,7 @@
     .bio {
       width: 18.3rem;
       text-align:justify;
-      margin-top: -20rem;
+      margin-top: 0rem;
     }
 
     .icon {
